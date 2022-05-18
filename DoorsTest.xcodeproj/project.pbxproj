@@ -1,0 +1,732 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE095C502749188D008C9F91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE095C4F2749188D008C9F91 /* AppDelegate.swift */; };
+		CE095C522749188D008C9F91 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE095C512749188D008C9F91 /* SceneDelegate.swift */; };
+		CE095C542749188D008C9F91 /* DoorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE095C532749188D008C9F91 /* DoorsViewController.swift */; };
+		CE095C592749188F008C9F91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE095C582749188F008C9F91 /* Assets.xcassets */; };
+		CE095C5C2749188F008C9F91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE095C5A2749188F008C9F91 /* LaunchScreen.storyboard */; };
+		CE095C672749188F008C9F91 /* DoorsTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE095C662749188F008C9F91 /* DoorsTestTests.swift */; };
+		CE095C722749188F008C9F91 /* DoorsTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE095C712749188F008C9F91 /* DoorsTestUITests.swift */; };
+		CE095C8027493A51008C9F91 /* DoorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE095C7F27493A51008C9F91 /* DoorTableViewCell.swift */; };
+		CE095C8227494EEA008C9F91 /* WelcomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE095C8127494EEA008C9F91 /* WelcomeCell.swift */; };
+		CE095C8427495D03008C9F91 /* DoorService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE095C8327495D03008C9F91 /* DoorService.swift */; };
+		CE095C8627496142008C9F91 /* DoorModelItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE095C8527496142008C9F91 /* DoorModelItem.swift */; };
+		CEE4C89E275E5C5E0017222A /* DoorScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE4C89B275E5C5E0017222A /* DoorScreenView.swift */; };
+		CEE4C89F275E5C5E0017222A /* DoorScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE4C89C275E5C5E0017222A /* DoorScreenViewController.swift */; };
+		CEE4C8A3275F42170017222A /* SizeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE4C8A2275F42170017222A /* SizeHelper.swift */; };
+		CEE4C8A6275F43F80017222A /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE4C8A5275F43F80017222A /* UIFont.swift */; };
+		CEE4C8A9275F46780017222A /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE4C8A8275F46780017222A /* CustomFont.swift */; };
+		FC18D3E67E32DA03B1AB265E /* libPods-DoorsTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E60AFCC5B5849CD640466A87 /* libPods-DoorsTest.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE095C632749188F008C9F91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE095C442749188D008C9F91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE095C4B2749188D008C9F91;
+			remoteInfo = DoorsTest;
+		};
+		CE095C6E2749188F008C9F91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE095C442749188D008C9F91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE095C4B2749188D008C9F91;
+			remoteInfo = DoorsTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		434A5FD9E4D140A8856F3151 /* Pods-DoorsTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoorsTest.release.xcconfig"; path = "Target Support Files/Pods-DoorsTest/Pods-DoorsTest.release.xcconfig"; sourceTree = "<group>"; };
+		83F75F967B6AA18F540405BD /* Pods-DoorsTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoorsTest.debug.xcconfig"; path = "Target Support Files/Pods-DoorsTest/Pods-DoorsTest.debug.xcconfig"; sourceTree = "<group>"; };
+		CE095C4C2749188D008C9F91 /* DoorsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoorsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE095C4F2749188D008C9F91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE095C512749188D008C9F91 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CE095C532749188D008C9F91 /* DoorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoorsViewController.swift; sourceTree = "<group>"; };
+		CE095C582749188F008C9F91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE095C5B2749188F008C9F91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE095C5D2749188F008C9F91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE095C622749188F008C9F91 /* DoorsTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoorsTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE095C662749188F008C9F91 /* DoorsTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoorsTestTests.swift; sourceTree = "<group>"; };
+		CE095C682749188F008C9F91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE095C6D2749188F008C9F91 /* DoorsTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoorsTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE095C712749188F008C9F91 /* DoorsTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoorsTestUITests.swift; sourceTree = "<group>"; };
+		CE095C732749188F008C9F91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE095C7F27493A51008C9F91 /* DoorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoorTableViewCell.swift; sourceTree = "<group>"; };
+		CE095C8127494EEA008C9F91 /* WelcomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeCell.swift; sourceTree = "<group>"; };
+		CE095C8327495D03008C9F91 /* DoorService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoorService.swift; sourceTree = "<group>"; };
+		CE095C8527496142008C9F91 /* DoorModelItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoorModelItem.swift; sourceTree = "<group>"; };
+		CEE4C89B275E5C5E0017222A /* DoorScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoorScreenView.swift; sourceTree = "<group>"; };
+		CEE4C89C275E5C5E0017222A /* DoorScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoorScreenViewController.swift; sourceTree = "<group>"; };
+		CEE4C8A2275F42170017222A /* SizeHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeHelper.swift; sourceTree = "<group>"; };
+		CEE4C8A5275F43F80017222A /* UIFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
+		CEE4C8A8275F46780017222A /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
+		E60AFCC5B5849CD640466A87 /* libPods-DoorsTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DoorsTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE095C492749188D008C9F91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC18D3E67E32DA03B1AB265E /* libPods-DoorsTest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE095C5F2749188F008C9F91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE095C6A2749188F008C9F91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51406ACD58C61BD8A361DE8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E60AFCC5B5849CD640466A87 /* libPods-DoorsTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9ED936834E52A1685ADEF4DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				83F75F967B6AA18F540405BD /* Pods-DoorsTest.debug.xcconfig */,
+				434A5FD9E4D140A8856F3151 /* Pods-DoorsTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CE095C432749188D008C9F91 = {
+			isa = PBXGroup;
+			children = (
+				CE095C4E2749188D008C9F91 /* DoorsTest */,
+				CE095C652749188F008C9F91 /* DoorsTestTests */,
+				CE095C702749188F008C9F91 /* DoorsTestUITests */,
+				CE095C4D2749188D008C9F91 /* Products */,
+				9ED936834E52A1685ADEF4DB /* Pods */,
+				51406ACD58C61BD8A361DE8E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE095C4D2749188D008C9F91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE095C4C2749188D008C9F91 /* DoorsTest.app */,
+				CE095C622749188F008C9F91 /* DoorsTestTests.xctest */,
+				CE095C6D2749188F008C9F91 /* DoorsTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE095C4E2749188D008C9F91 /* DoorsTest */ = {
+			isa = PBXGroup;
+			children = (
+				CE095C532749188D008C9F91 /* DoorsViewController.swift */,
+				CEE4C8A4275F43CD0017222A /* Extensions */,
+				CEE4C8A1275F41F60017222A /* Helpers */,
+				CEE4C898275E5C5E0017222A /* DoorScreen */,
+				CE095C582749188F008C9F91 /* Assets.xcassets */,
+				CE095C5A2749188F008C9F91 /* LaunchScreen.storyboard */,
+				CE095C5D2749188F008C9F91 /* Info.plist */,
+				CE095C512749188D008C9F91 /* SceneDelegate.swift */,
+				CE095C4F2749188D008C9F91 /* AppDelegate.swift */,
+			);
+			path = DoorsTest;
+			sourceTree = "<group>";
+		};
+		CE095C652749188F008C9F91 /* DoorsTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE095C662749188F008C9F91 /* DoorsTestTests.swift */,
+				CE095C682749188F008C9F91 /* Info.plist */,
+			);
+			path = DoorsTestTests;
+			sourceTree = "<group>";
+		};
+		CE095C702749188F008C9F91 /* DoorsTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE095C712749188F008C9F91 /* DoorsTestUITests.swift */,
+				CE095C732749188F008C9F91 /* Info.plist */,
+			);
+			path = DoorsTestUITests;
+			sourceTree = "<group>";
+		};
+		CEE4C898275E5C5E0017222A /* DoorScreen */ = {
+			isa = PBXGroup;
+			children = (
+				CEE4C899275E5C5E0017222A /* Models */,
+				CEE4C89A275E5C5E0017222A /* View */,
+				CEE4C89D275E5C5E0017222A /* Services */,
+			);
+			path = DoorScreen;
+			sourceTree = "<group>";
+		};
+		CEE4C899275E5C5E0017222A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE095C8527496142008C9F91 /* DoorModelItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CEE4C89A275E5C5E0017222A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CEE4C8A0275E627A0017222A /* Cells */,
+				CEE4C89B275E5C5E0017222A /* DoorScreenView.swift */,
+				CEE4C89C275E5C5E0017222A /* DoorScreenViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CEE4C89D275E5C5E0017222A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CE095C8327495D03008C9F91 /* DoorService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		CEE4C8A0275E627A0017222A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CE095C7F27493A51008C9F91 /* DoorTableViewCell.swift */,
+				CE095C8127494EEA008C9F91 /* WelcomeCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		CEE4C8A1275F41F60017222A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				CEE4C8A2275F42170017222A /* SizeHelper.swift */,
+				CEE4C8A8275F46780017222A /* CustomFont.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		CEE4C8A4275F43CD0017222A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CEE4C8A5275F43F80017222A /* UIFont.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE095C4B2749188D008C9F91 /* DoorsTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE095C762749188F008C9F91 /* Build configuration list for PBXNativeTarget "DoorsTest" */;
+			buildPhases = (
+				806007C030C9006E5362F606 /* [CP] Check Pods Manifest.lock */,
+				CE095C482749188D008C9F91 /* Sources */,
+				CE095C492749188D008C9F91 /* Frameworks */,
+				CE095C4A2749188D008C9F91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoorsTest;
+			productName = DoorsTest;
+			productReference = CE095C4C2749188D008C9F91 /* DoorsTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE095C612749188F008C9F91 /* DoorsTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE095C792749188F008C9F91 /* Build configuration list for PBXNativeTarget "DoorsTestTests" */;
+			buildPhases = (
+				CE095C5E2749188F008C9F91 /* Sources */,
+				CE095C5F2749188F008C9F91 /* Frameworks */,
+				CE095C602749188F008C9F91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE095C642749188F008C9F91 /* PBXTargetDependency */,
+			);
+			name = DoorsTestTests;
+			productName = DoorsTestTests;
+			productReference = CE095C622749188F008C9F91 /* DoorsTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE095C6C2749188F008C9F91 /* DoorsTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE095C7C2749188F008C9F91 /* Build configuration list for PBXNativeTarget "DoorsTestUITests" */;
+			buildPhases = (
+				CE095C692749188F008C9F91 /* Sources */,
+				CE095C6A2749188F008C9F91 /* Frameworks */,
+				CE095C6B2749188F008C9F91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE095C6F2749188F008C9F91 /* PBXTargetDependency */,
+			);
+			name = DoorsTestUITests;
+			productName = DoorsTestUITests;
+			productReference = CE095C6D2749188F008C9F91 /* DoorsTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE095C442749188D008C9F91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					CE095C4B2749188D008C9F91 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					CE095C612749188F008C9F91 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = CE095C4B2749188D008C9F91;
+					};
+					CE095C6C2749188F008C9F91 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = CE095C4B2749188D008C9F91;
+					};
+				};
+			};
+			buildConfigurationList = CE095C472749188D008C9F91 /* Build configuration list for PBXProject "DoorsTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE095C432749188D008C9F91;
+			productRefGroup = CE095C4D2749188D008C9F91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE095C4B2749188D008C9F91 /* DoorsTest */,
+				CE095C612749188F008C9F91 /* DoorsTestTests */,
+				CE095C6C2749188F008C9F91 /* DoorsTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE095C4A2749188D008C9F91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE095C5C2749188F008C9F91 /* LaunchScreen.storyboard in Resources */,
+				CE095C592749188F008C9F91 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE095C602749188F008C9F91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE095C6B2749188F008C9F91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		806007C030C9006E5362F606 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DoorsTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE095C482749188D008C9F91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE095C542749188D008C9F91 /* DoorsViewController.swift in Sources */,
+				CE095C8027493A51008C9F91 /* DoorTableViewCell.swift in Sources */,
+				CEE4C8A3275F42170017222A /* SizeHelper.swift in Sources */,
+				CE095C8227494EEA008C9F91 /* WelcomeCell.swift in Sources */,
+				CE095C502749188D008C9F91 /* AppDelegate.swift in Sources */,
+				CE095C8427495D03008C9F91 /* DoorService.swift in Sources */,
+				CEE4C8A6275F43F80017222A /* UIFont.swift in Sources */,
+				CEE4C89F275E5C5E0017222A /* DoorScreenViewController.swift in Sources */,
+				CE095C8627496142008C9F91 /* DoorModelItem.swift in Sources */,
+				CEE4C8A9275F46780017222A /* CustomFont.swift in Sources */,
+				CEE4C89E275E5C5E0017222A /* DoorScreenView.swift in Sources */,
+				CE095C522749188D008C9F91 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE095C5E2749188F008C9F91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE095C672749188F008C9F91 /* DoorsTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE095C692749188F008C9F91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE095C722749188F008C9F91 /* DoorsTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE095C642749188F008C9F91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE095C4B2749188D008C9F91 /* DoorsTest */;
+			targetProxy = CE095C632749188F008C9F91 /* PBXContainerItemProxy */;
+		};
+		CE095C6F2749188F008C9F91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE095C4B2749188D008C9F91 /* DoorsTest */;
+			targetProxy = CE095C6E2749188F008C9F91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE095C5A2749188F008C9F91 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE095C5B2749188F008C9F91 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE095C742749188F008C9F91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE095C752749188F008C9F91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE095C772749188F008C9F91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83F75F967B6AA18F540405BD /* Pods-DoorsTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6Y97YM76EY;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = DoorsTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AKh.DoorsTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE095C782749188F008C9F91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 434A5FD9E4D140A8856F3151 /* Pods-DoorsTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6Y97YM76EY;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = DoorsTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AKh.DoorsTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE095C7A2749188F008C9F91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WJL4JH57MU;
+				INFOPLIST_FILE = DoorsTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AKh.DoorsTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoorsTest.app/DoorsTest";
+			};
+			name = Debug;
+		};
+		CE095C7B2749188F008C9F91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WJL4JH57MU;
+				INFOPLIST_FILE = DoorsTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AKh.DoorsTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoorsTest.app/DoorsTest";
+			};
+			name = Release;
+		};
+		CE095C7D2749188F008C9F91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WJL4JH57MU;
+				INFOPLIST_FILE = DoorsTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AKh.DoorsTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DoorsTest;
+			};
+			name = Debug;
+		};
+		CE095C7E2749188F008C9F91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WJL4JH57MU;
+				INFOPLIST_FILE = DoorsTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AKh.DoorsTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DoorsTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE095C472749188D008C9F91 /* Build configuration list for PBXProject "DoorsTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE095C742749188F008C9F91 /* Debug */,
+				CE095C752749188F008C9F91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE095C762749188F008C9F91 /* Build configuration list for PBXNativeTarget "DoorsTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE095C772749188F008C9F91 /* Debug */,
+				CE095C782749188F008C9F91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE095C792749188F008C9F91 /* Build configuration list for PBXNativeTarget "DoorsTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE095C7A2749188F008C9F91 /* Debug */,
+				CE095C7B2749188F008C9F91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE095C7C2749188F008C9F91 /* Build configuration list for PBXNativeTarget "DoorsTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE095C7D2749188F008C9F91 /* Debug */,
+				CE095C7E2749188F008C9F91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE095C442749188D008C9F91 /* Project object */;
+}
